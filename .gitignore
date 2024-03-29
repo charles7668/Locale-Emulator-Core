@@ -29,3 +29,18 @@ $tf*/
 *.opt
 *.swp/
 **/*.swp
+
+# .vs folder
+.vs/
+
+# _WDK folder
+_WDK/
+!_WDK/WDK.7z
+
+# _Compilers folder
+_Compilers/
+!_Compilers/Compilers.7z
+
+# _Libs folder
+_Libs/
+!_Libs/Libs.7z
