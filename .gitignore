@@ -44,3 +44,6 @@ _Compilers/
 # _Libs folder
 _Libs/
 !_Libs/Libs.7z
+
+# .idea folder
+.idea/
