@@ -47,3 +47,6 @@ _Libs/
 
 # .idea folder
 .idea/
+
+# Build results
+Build/
