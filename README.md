@@ -6,13 +6,13 @@ This repository holds the source codes of the core libraries of the [Locale-Emul
 
 Prerequisites:
 
- - Microsoft Visual Studio 2013/2015
+ - Microsoft Visual Studio 2022 or above
 
 Building steps:
 
- 1. Extract `.7z` packages in `_Compilers`, `_Libs` and `_WDK` folders.
- 2. Load .sln solution file.
- 3. Compile.
+ 1. execute `init-deps.bat`
+ 2. execute `build.bat`
+ 3. The compiled DLL file will be placed in the Build folder.
 
 ## Notes
 
