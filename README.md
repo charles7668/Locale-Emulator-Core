@@ -1,23 +1,24 @@
 # Locale-Emulator-Core
 
-This repository holds the source codes of the core libraries of the [Locale-Emulator project](https://github.com/xupefei/Locale-Emulator).
+This repository holds the source codes of the core libraries of the [Locale-Emulator project](https://github.com/charles7668/Locale-Emulator).
 
 ## Build
 
 Prerequisites:
 
- - Microsoft Visual Studio 2022 or above
+- Microsoft Visual Studio 2022 or above
+- [WDK](https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk)
 
 Building steps:
 
- 1. execute `init-deps.bat`
- 2. execute `build.bat`
- 3. The compiled DLL file will be placed in the Build folder.
+1.  execute `init-deps.bat`
+2.  execute `build.bat`
+3.  The compiled DLL file will be placed in the Build folder.
 
 ## Notes
 
- - The `_Compilers` folder contains modified toolchain taken from Microsoft Visual Studio 2015. Please compare `link.bak` and `link.exe` for the modifications.
- - The `_WDK` folder contains [Windows Driver Kit](https://en.wikipedia.org/wiki/Windows_Driver_Kit) version 7.1 and 8.0.
+- The `_Compilers` folder contains modified toolchain taken from Microsoft Visual Studio 2015. Please compare `link.bak` and `link.exe` for the modifications.
+- The `_WDK` folder contains [Windows Driver Kit](https://en.wikipedia.org/wiki/Windows_Driver_Kit) version 7.1 and 8.0.
 
 ## License
 
